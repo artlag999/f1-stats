@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Formula1";
     src: local("Formula1-Regular"),
-        url("../../fonts/Formula1-Regular.woff2") format("woff2"),
-        url("../../fonts/Froemula1-Regular.woff") format("woff");
+        url("../fonts/Formula1-Regular.woff2") format("woff2"),
+        url("../fonts/Froemula1-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 @font-face {
     font-family: "Formula1";
     src: local("Formula1-Wide"),
-        url("../../fonts/Formula1-Wide.woff2") format("woff2"),
-        url("../../fonts/Froemula1-Wide.woff") format("woff");
+        url("../fonts/Formula1-Wide.woff2") format("woff2"),
+        url("../fonts/Froemula1-Wide.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -21,8 +21,8 @@
 @font-face {
     font-family: "Formula1";
     src: local("Formula1-Bold"),
-        url("../../fonts/Formula1-Bold.woff2") format("woff2"),
-        url("../../fonts/Froemula1-Bold.woff") format("woff");
+        url("../fonts/Formula1-Bold.woff2") format("woff2"),
+        url("../fonts/Froemula1-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
