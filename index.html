@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>F1 stats</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo__img">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="" class="nav__link" data-nav="seasons">Seasons</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link" data-nav="teams">Teams</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link" data-nav="circuits">Circuits</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="app" id="app">
+        <div class="app__container container">
+            <h2 class="app__head" id="app__head"></h2>
+
+
+            <div class="app__menu menu inactive" id="app__menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link" data-menu="drivers">Drivers rankings</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link" data-menu="teams">Teams rankings</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link" data-menu="races">Races</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="app__content" id="app__content"></div>
+    
+    
+            <div class="app__info" id="app__info">
+                <!-- <h2 class="info__head">Info</h2> -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
